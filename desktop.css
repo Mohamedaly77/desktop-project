@@ -1,0 +1,85 @@
+body {
+    box-sizing: border-box;
+    width: 1445;
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    width: 300px;
+    height: 300px;
+    background-color: hsl(244, 38%, 16%);
+    color: hsl(0, 0%, 100%);
+    padding: 0px;
+
+}
+
+.two {
+    width: 300px;
+    height: 300px;
+    background-color: hsl(277, 64%, 61%);
+}
+
+h2 {
+    padding-left: 33px;
+}
+
+.one,
+.two {
+    margin-top: 100px;
+
+    padding: 10px;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: auto;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin-right: 0px;
+    margin-top: 65px;
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+.comp {
+    margin-left: -43px;
+    margin-top: 5px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.temp {
+    margin-top: -20px;
+    text-align: center;
+    text-transform: capitalize;
+}
